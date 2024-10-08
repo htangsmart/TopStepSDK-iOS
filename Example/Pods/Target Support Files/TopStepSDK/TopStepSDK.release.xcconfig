@@ -3,7 +3,7 @@ CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/TopStepSDK
 EXCLUDED_ARCHS[sdk=iphonesimulator*] = x86_64
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TopStepSDK/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ENABLE_IDFA=1
-OTHER_LDFLAGS = $(inherited) -l"bz2.1.0" -l"c++" -l"sqlite3" -l"z" -framework "CoreBluetooth" -framework "Foundation" -framework "TopStepComKit" -framework "TopStepComKitFitCloud" -framework "TopStepComKitFw" -framework "TopStepComKitProxy" -framework "TopStepComKitSJ" -framework "UIKit" -framework "flywearsdk" -framework "persimwearSDK"
+OTHER_LDFLAGS = $(inherited) -framework "CoreBluetooth" -framework "Foundation" -framework "TopStepComKit" -framework "TopStepComKitFitCloud" -framework "TopStepComKitFw" -framework "TopStepComKitSJ" -framework "UIKit" -framework "flywearsdk"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}

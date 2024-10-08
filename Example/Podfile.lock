@@ -6,20 +6,13 @@ PODS:
     - TopStepSDK/core
   - TopStepSDK/fw (0.1.0):
     - TopStepSDK/flywear
-  - TopStepSDK/persimwear (0.1.0):
-    - TopStepSDK/core
-  - TopStepSDK/proxy (0.1.0):
-    - TopStepSDK/core
   - TopStepSDK/sj (0.1.0):
     - TopStepSDK/core
 
 DEPENDENCIES:
   - TopStepSDK/core (from `../`)
   - TopStepSDK/fitcloud (from `../`)
-  - TopStepSDK/flywear (from `../`)
   - TopStepSDK/fw (from `../`)
-  - TopStepSDK/persimwear (from `../`)
-  - TopStepSDK/proxy (from `../`)
   - TopStepSDK/sj (from `../`)
 
 EXTERNAL SOURCES:
@@ -27,8 +20,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TopStepSDK: 59bdc20a2f68407ada673802738fd917e80ec747
+  TopStepSDK: fd36f5f6d5c4e1e3d4af05b6d4c1ebabe527603b
 
-PODFILE CHECKSUM: 20a4ccf7d3624f4234c397109432deb31d549f27
+PODFILE CHECKSUM: 13bf59cd5a58f46f92cc8dda106113dfc970b911
 
 COCOAPODS: 1.15.2

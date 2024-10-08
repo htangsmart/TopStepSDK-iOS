@@ -6,7 +6,7 @@
 //
 
 #import "TopStepCoreClass.h"
-#import <TopStepComKitFw/TopStepComKitFw.h>
+//#import <TopStepComKitFw/TopStepComKitFw.h>
 
 @implementation TopStepCoreClass
 
