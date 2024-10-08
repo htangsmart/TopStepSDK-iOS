@@ -1,0 +1,23 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'TopStepSDK_Example' do
+  
+  pod 'TopStepSDK', :path => '../', :subspecs => ['core', 'sj', 'fw', 'fitcloud']
+  
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] = "12.0"
+      #for sj sdk
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      if target.name == 'HandyJSON'
+        config.build_settings['SWIFT_COMPILATION_MODE'] = 'incremental'
+      end
+    end
+  end
+end

@@ -1,0 +1,6 @@
+framework module flywearsdk {
+  umbrella header "flywearsdk.h"
+  export *
+
+  module * { export * }
+}

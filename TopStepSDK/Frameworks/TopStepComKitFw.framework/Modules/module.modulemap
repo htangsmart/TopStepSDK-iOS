@@ -1,0 +1,11 @@
+framework module TopStepComKitFw {
+  umbrella header "TopStepComKitFw.h"
+  export *
+
+  module * { export * }
+}
+
+module TopStepComKitFw.Swift {
+  header "TopStepComKitFw-Swift.h"
+  requires objc
+}

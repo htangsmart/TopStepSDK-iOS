@@ -1,0 +1,6 @@
+framework module TopStepSDK {
+  umbrella header "TopStepSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

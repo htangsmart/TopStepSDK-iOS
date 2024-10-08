@@ -1,0 +1,11 @@
+framework module TopStepComKitProxy {
+  umbrella header "TopStepComKitProxy.h"
+  export *
+
+  module * { export * }
+}
+
+module TopStepComKitProxy.Swift {
+  header "TopStepComKitProxy-Swift.h"
+  requires objc
+}
