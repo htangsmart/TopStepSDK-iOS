@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AC1F46279490F9B42F3E229E5000C0B /* TopStepSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEC86DDB3C5E43D94FFFE7C9D2166B5 /* TopStepSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EE778EFC58074661A462CC234AFBC4C /* TopStepSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 834AFA63FDF1982589CD4D6101CF5494 /* TopStepSDK-dummy.m */; };
+		1AC1F46279490F9B42F3E229E5000C0B /* TopStepSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C880ECA494DB390753B53D2D688A7619 /* TopStepSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE778EFC58074661A462CC234AFBC4C /* TopStepSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087409ECAC4D6DC5B8CF8FD92B551F18 /* TopStepSDK-dummy.m */; };
 		219E548E259BF1971E7991C391981F18 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5712191FDBE766AD280D29F744E28E /* CoreBluetooth.framework */; };
 		272EB7A789FC7277D0F1E360A4F6357E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E82B0C501E3E14324B9187EEB00441 /* Foundation.framework */; };
-		2BB1E6C312D61090B38C426917AE85AB /* TopStepCoreClass.h in Headers */ = {isa = PBXBuildFile; fileRef = EC19A6A4A1CB317603153863F7C0F504 /* TopStepCoreClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB1E6C312D61090B38C426917AE85AB /* TopStepCoreClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D70F1165C2A044F010D61FD5D673B17E /* TopStepCoreClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CA472C004ECAAA59549BF20C8F955D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D65EA472C08E60BFEC99DA355B8179D /* UIKit.framework */; };
-		49D0105E34F36DDB7FA7ACDF2D260E87 /* TopStepCoreClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F2620C6B3B3D90758670D674114F5 /* TopStepCoreClass.m */; };
+		49D0105E34F36DDB7FA7ACDF2D260E87 /* TopStepCoreClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD443BEDFAE2A5027B659E89A6CB16 /* TopStepCoreClass.m */; };
 		55C7C740531507A7995388E0CF000A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E82B0C501E3E14324B9187EEB00441 /* Foundation.framework */; };
 		7FCE568C398FCA5058D3C3B07EB60165 /* Pods-TopStepSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 817AA5F0899F6E722833A0A85DBE595A /* Pods-TopStepSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C11D59C38D970324237A9CAA9C24B4 /* Pods-TopStepSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54346256F37E7E1D7D48906D79F8184C /* Pods-TopStepSDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7C6E7AFE2B6C820C50FC535A4A534A58 /* PBXContainerItemProxy */ = {
+		C8DC5555D45FAB342752194767625B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,37 +30,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		085F2620C6B3B3D90758670D674114F5 /* TopStepCoreClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TopStepCoreClass.m; path = TopStepSDK/Classes/TopStepCoreClass.m; sourceTree = "<group>"; };
+		037DE8094CAB5FE1A636C7B6153B8A73 /* TopStepSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TopStepSDK-Info.plist"; sourceTree = "<group>"; };
+		04D315545F166C5077B7ADEEBDC7939A /* TopStepComKitFw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFw.framework; path = TopStepSDK/Frameworks/TopStepComKitFw/TopStepComKitFw.framework; sourceTree = "<group>"; };
+		087409ECAC4D6DC5B8CF8FD92B551F18 /* TopStepSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TopStepSDK-dummy.m"; sourceTree = "<group>"; };
 		0D455DC4C17B36DCE1412F586BA14C58 /* Pods-TopStepSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TopStepSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16212294128537A7A916E5E67C041255 /* Pods-TopStepSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TopStepSDK_Example"; path = Pods_TopStepSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E810B110E31E7C0899956E88A465A41 /* TopStepComKitSJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitSJ.framework; path = TopStepSDK/Frameworks/TopStepComKitSJ.framework; sourceTree = "<group>"; };
-		21BCE820DB950F89D19E685E72F4FD9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3738D74627E5AF989F012E78C44A5E71 /* Pods-TopStepSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TopStepSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C9CD204D3094CA6B9280C614E1ADCFB /* TopStepSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.debug.xcconfig; sourceTree = "<group>"; };
 		3D65EA472C08E60BFEC99DA355B8179D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		47D4D17604E787FCAE2E56220AADAC46 /* TopStepSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TopStepSDK-Info.plist"; sourceTree = "<group>"; };
+		3DC18823F0AFD880C5A0107D7DFE9216 /* TopStepSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-prefix.pch"; sourceTree = "<group>"; };
 		4D5712191FDBE766AD280D29F744E28E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		4DBD443BEDFAE2A5027B659E89A6CB16 /* TopStepCoreClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TopStepCoreClass.m; path = TopStepSDK/Classes/TopStepCoreClass.m; sourceTree = "<group>"; };
 		54346256F37E7E1D7D48906D79F8184C /* Pods-TopStepSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TopStepSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		54E5E5E454B25AEAC5D4689418268734 /* Pods-TopStepSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TopStepSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		65E82B0C501E3E14324B9187EEB00441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D7CCEA476ECC5D4A10F6EDCAC1B38B6 /* TopStepComKitFitCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFitCloud.framework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud.framework; sourceTree = "<group>"; };
+		6A7687849A9D9DF07A8A20DFCD0C685E /* TopStepComKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKit.framework; path = TopStepSDK/Frameworks/TopStepComKit/TopStepComKit.framework; sourceTree = "<group>"; };
 		7FFFF2373C3E6757308E6B30C3FD559D /* Pods-TopStepSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TopStepSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		817AA5F0899F6E722833A0A85DBE595A /* Pods-TopStepSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TopStepSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		830FF4610A4075530BDF5F456525261F /* TopStepSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TopStepSDK; path = TopStepSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		834AFA63FDF1982589CD4D6101CF5494 /* TopStepSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TopStepSDK-dummy.m"; sourceTree = "<group>"; };
-		92E07C63C110B5710D9EB56058977BD7 /* TopStepSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TopStepSDK.modulemap; sourceTree = "<group>"; };
-		9C7BD87817C1DCB7110B750592D6BCE7 /* TopStepSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.debug.xcconfig; sourceTree = "<group>"; };
-		9D15D9FF3D868D3094639C57CD7720C4 /* TopStepSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.release.xcconfig; sourceTree = "<group>"; };
+		8ED8E2138F9E912D856E71E52BE08BAF /* TopStepSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TopStepSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DAC67814B801DB4200AC48412A5E16 /* TopStepSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TopStepSDK.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABCCC5A06646024151704E9E11B12A52 /* flywearsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flywearsdk.framework; path = TopStepSDK/Frameworks/flywearsdk.framework; sourceTree = "<group>"; };
-		ACEC86DDB3C5E43D94FFFE7C9D2166B5 /* TopStepSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-umbrella.h"; sourceTree = "<group>"; };
 		B8438C159C90426E96FF12D42FCCC4D5 /* Pods-TopStepSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TopStepSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BBB7E83ADB7DB1CD266887C8C86A9BA9 /* TopStepComKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKit.framework; path = TopStepSDK/Frameworks/TopStepComKit.framework; sourceTree = "<group>"; };
-		D8DFFB01A69E67EA9DB267958E86B411 /* TopStepComKitFw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFw.framework; path = TopStepSDK/Frameworks/TopStepComKitFw.framework; sourceTree = "<group>"; };
-		EB122D3FAA91F3D55FEE4F849DFB9686 /* TopStepSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-prefix.pch"; sourceTree = "<group>"; };
-		EC19A6A4A1CB317603153863F7C0F504 /* TopStepCoreClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TopStepCoreClass.h; path = TopStepSDK/Classes/TopStepCoreClass.h; sourceTree = "<group>"; };
+		C880ECA494DB390753B53D2D688A7619 /* TopStepSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-umbrella.h"; sourceTree = "<group>"; };
+		CF910E1A328F8CD7464D3B928A311478 /* TopStepComKitSJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitSJ.framework; path = TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework; sourceTree = "<group>"; };
+		D2F8456B400D0499A5AB87FDB4763A60 /* TopStepComKitFitCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFitCloud.framework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework; sourceTree = "<group>"; };
+		D70F1165C2A044F010D61FD5D673B17E /* TopStepCoreClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TopStepCoreClass.h; path = TopStepSDK/Classes/TopStepCoreClass.h; sourceTree = "<group>"; };
+		DA7C84CD5054A75388339E1D2EBFB1BF /* flywearsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flywearsdk.framework; path = TopStepSDK/Frameworks/flywearsdk/flywearsdk.framework; sourceTree = "<group>"; };
+		DF2A66DF363775798BBF057D5EF65997 /* TopStepComKitProxy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitProxy.framework; path = TopStepSDK/Frameworks/TopStepComKitProxy/TopStepComKitProxy.framework; sourceTree = "<group>"; };
+		E28FB788A3D2DE14F57ECDE11073F771 /* TopStepSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.release.xcconfig; sourceTree = "<group>"; };
 		FA2C8390EB2CB241B016FF26F6B5482D /* Pods-TopStepSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TopStepSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FAC323973AE3DB17B75485169404BBDF /* TopStepSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TopStepSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FEF1D7C8E9C7CCBFFE1B08B25F6FCBB7 /* Pods-TopStepSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TopStepSDK_Example.modulemap"; sourceTree = "<group>"; };
+		FF3D688CF6F9ACC733E406491524C22C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00BCFE410633E0B85CD0B2DFFE8CDADE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6AE770A1C6CD32C6EEF906BFE929EFDD /* TopStepSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,53 +111,60 @@
 			path = "Target Support Files/Pods-TopStepSDK_Example";
 			sourceTree = "<group>";
 		};
-		1F68EAA2AB06D5D074ACA748B4E00C41 /* Frameworks */ = {
+		2EAA3A063D745A535DCD013C1F8455D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D8DFFB01A69E67EA9DB267958E86B411 /* TopStepComKitFw.framework */,
+				DF2A66DF363775798BBF057D5EF65997 /* TopStepComKitProxy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2AE2C92A12D9880AB655A4CCE02BF12A /* fitcloud */ = {
+		2F4AEB8474E2E71B74AC98D41E218852 /* TopStepSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A5B96C13C3F26E121DBF1B1A953C0A8E /* Frameworks */,
-			);
-			name = fitcloud;
-			sourceTree = "<group>";
-		};
-		38FA9F440C0F94AC1DBE7099CE485AA3 /* flywear */ = {
-			isa = PBXGroup;
-			children = (
-				9E8B8D41DE3C5317C6F9977C2FF04E20 /* Frameworks */,
-			);
-			name = flywear;
-			sourceTree = "<group>";
-		};
-		3F0319CE9DBBD38CA427692E10004E3C /* core */ = {
-			isa = PBXGroup;
-			children = (
-				EC19A6A4A1CB317603153863F7C0F504 /* TopStepCoreClass.h */,
-				085F2620C6B3B3D90758670D674114F5 /* TopStepCoreClass.m */,
-				FA7A30D9B71CCA24C06BFB479CCC929A /* Frameworks */,
-			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		6AE770A1C6CD32C6EEF906BFE929EFDD /* TopStepSDK */ = {
-			isa = PBXGroup;
-			children = (
-				3F0319CE9DBBD38CA427692E10004E3C /* core */,
-				2AE2C92A12D9880AB655A4CCE02BF12A /* fitcloud */,
-				38FA9F440C0F94AC1DBE7099CE485AA3 /* flywear */,
-				B99FE26F4143A4E97FF62BD1543EB8DE /* fw */,
-				EEF69563C58DBC952A29756113D772BC /* Pod */,
-				C488C6D8581ECE44C53F2F691A388D51 /* sj */,
-				AD97D61CBA0DAC305EA8E8A41E14A9A9 /* Support Files */,
+				CFE3DA2A495808010FAB09F7D5C48080 /* core */,
+				B291CA692CEF9B693E1C993C6EE5CA0E /* fitcloud */,
+				B799282C09E1E1FE97E60B3A3D9EB824 /* flywear */,
+				E4E90873775B9D5F2501D216F78E135C /* fw */,
+				C910190907AEB97BBBD0AEFA57167382 /* Pod */,
+				45520F903D173859D6E8B5B6F9661426 /* proxy */,
+				F7D0AEC4EADAE7FAE7BA8D5C4F9B47D8 /* sj */,
+				AC9123DB24DECADC6ACD3FF4DB1EB112 /* Support Files */,
 			);
 			name = TopStepSDK;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		429D6706AA53C5E3295621B3D37CCAE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D315545F166C5077B7ADEEBDC7939A /* TopStepComKitFw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43BA8BEEEA8CA72BAE880F54E8C658DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A7687849A9D9DF07A8A20DFCD0C685E /* TopStepComKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45520F903D173859D6E8B5B6F9661426 /* proxy */ = {
+			isa = PBXGroup;
+			children = (
+				2EAA3A063D745A535DCD013C1F8455D4 /* Frameworks */,
+			);
+			name = proxy;
+			sourceTree = "<group>";
+		};
+		5A1C3D2224DF369929E0D4D3AF7DBAA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7C84CD5054A75388339E1D2EBFB1BF /* flywearsdk.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		76C53BC114CEBC560AED7656AF4FD075 /* iOS */ = {
@@ -177,20 +177,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7B19C68CEDC1BF275EB5D4E934B7DCB6 /* Frameworks */ = {
+		A284D2D29F258A1DFF0CB2675AFEA72A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E810B110E31E7C0899956E88A465A41 /* TopStepComKitSJ.framework */,
+				2F4AEB8474E2E71B74AC98D41E218852 /* TopStepSDK */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9E8B8D41DE3C5317C6F9977C2FF04E20 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ABCCC5A06646024151704E9E11B12A52 /* flywearsdk.framework */,
-			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A3C24E4885376E5A1769C68147961411 /* Targets Support Files */ = {
@@ -201,54 +193,81 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A5B96C13C3F26E121DBF1B1A953C0A8E /* Frameworks */ = {
+		A58CD839DA99DB5FB011274006284294 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D7CCEA476ECC5D4A10F6EDCAC1B38B6 /* TopStepComKitFitCloud.framework */,
+				D2F8456B400D0499A5AB87FDB4763A60 /* TopStepComKitFitCloud.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AD97D61CBA0DAC305EA8E8A41E14A9A9 /* Support Files */ = {
+		AC9123DB24DECADC6ACD3FF4DB1EB112 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92E07C63C110B5710D9EB56058977BD7 /* TopStepSDK.modulemap */,
-				834AFA63FDF1982589CD4D6101CF5494 /* TopStepSDK-dummy.m */,
-				47D4D17604E787FCAE2E56220AADAC46 /* TopStepSDK-Info.plist */,
-				EB122D3FAA91F3D55FEE4F849DFB9686 /* TopStepSDK-prefix.pch */,
-				ACEC86DDB3C5E43D94FFFE7C9D2166B5 /* TopStepSDK-umbrella.h */,
-				9C7BD87817C1DCB7110B750592D6BCE7 /* TopStepSDK.debug.xcconfig */,
-				9D15D9FF3D868D3094639C57CD7720C4 /* TopStepSDK.release.xcconfig */,
+				93DAC67814B801DB4200AC48412A5E16 /* TopStepSDK.modulemap */,
+				087409ECAC4D6DC5B8CF8FD92B551F18 /* TopStepSDK-dummy.m */,
+				037DE8094CAB5FE1A636C7B6153B8A73 /* TopStepSDK-Info.plist */,
+				3DC18823F0AFD880C5A0107D7DFE9216 /* TopStepSDK-prefix.pch */,
+				C880ECA494DB390753B53D2D688A7619 /* TopStepSDK-umbrella.h */,
+				3C9CD204D3094CA6B9280C614E1ADCFB /* TopStepSDK.debug.xcconfig */,
+				E28FB788A3D2DE14F57ECDE11073F771 /* TopStepSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TopStepSDK";
 			sourceTree = "<group>";
 		};
-		B99FE26F4143A4E97FF62BD1543EB8DE /* fw */ = {
+		B291CA692CEF9B693E1C993C6EE5CA0E /* fitcloud */ = {
 			isa = PBXGroup;
 			children = (
-				1F68EAA2AB06D5D074ACA748B4E00C41 /* Frameworks */,
+				A58CD839DA99DB5FB011274006284294 /* Frameworks */,
 			);
-			name = fw;
+			name = fitcloud;
 			sourceTree = "<group>";
 		};
-		C488C6D8581ECE44C53F2F691A388D51 /* sj */ = {
+		B799282C09E1E1FE97E60B3A3D9EB824 /* flywear */ = {
 			isa = PBXGroup;
 			children = (
-				7B19C68CEDC1BF275EB5D4E934B7DCB6 /* Frameworks */,
+				5A1C3D2224DF369929E0D4D3AF7DBAA7 /* Frameworks */,
 			);
-			name = sj;
+			name = flywear;
+			sourceTree = "<group>";
+		};
+		C910190907AEB97BBBD0AEFA57167382 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D688CF6F9ACC733E406491524C22C /* README.md */,
+				8ED8E2138F9E912D856E71E52BE08BAF /* TopStepSDK.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				00BCFE410633E0B85CD0B2DFFE8CDADE /* Development Pods */,
+				A284D2D29F258A1DFF0CB2675AFEA72A /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				E38A58437C7267C20D2B0EAE9E15867E /* Products */,
 				A3C24E4885376E5A1769C68147961411 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CFE3DA2A495808010FAB09F7D5C48080 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				D70F1165C2A044F010D61FD5D673B17E /* TopStepCoreClass.h */,
+				4DBD443BEDFAE2A5027B659E89A6CB16 /* TopStepCoreClass.m */,
+				43BA8BEEEA8CA72BAE880F54E8C658DF /* Frameworks */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		D214FEF6F3484BBDF281A28B38DD460B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF910E1A328F8CD7464D3B928A311478 /* TopStepComKitSJ.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E38A58437C7267C20D2B0EAE9E15867E /* Products */ = {
@@ -260,21 +279,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EEF69563C58DBC952A29756113D772BC /* Pod */ = {
+		E4E90873775B9D5F2501D216F78E135C /* fw */ = {
 			isa = PBXGroup;
 			children = (
-				21BCE820DB950F89D19E685E72F4FD9C /* README.md */,
-				FAC323973AE3DB17B75485169404BBDF /* TopStepSDK.podspec */,
+				429D6706AA53C5E3295621B3D37CCAE0 /* Frameworks */,
 			);
-			name = Pod;
+			name = fw;
 			sourceTree = "<group>";
 		};
-		FA7A30D9B71CCA24C06BFB479CCC929A /* Frameworks */ = {
+		F7D0AEC4EADAE7FAE7BA8D5C4F9B47D8 /* sj */ = {
 			isa = PBXGroup;
 			children = (
-				BBB7E83ADB7DB1CD266887C8C86A9BA9 /* TopStepComKit.framework */,
+				D214FEF6F3484BBDF281A28B38DD460B /* Frameworks */,
 			);
-			name = Frameworks;
+			name = sj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,7 +330,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A488CBEC60E9AC009EC219DC42F5E6DA /* PBXTargetDependency */,
+				3D155D6A0E6F84E83F8D7E8696A33127 /* PBXTargetDependency */,
 			);
 			name = "Pods-TopStepSDK_Example";
 			productName = Pods_TopStepSDK_Example;
@@ -403,11 +421,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A488CBEC60E9AC009EC219DC42F5E6DA /* PBXTargetDependency */ = {
+		3D155D6A0E6F84E83F8D7E8696A33127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TopStepSDK;
 			target = EAF46D2CB7207E54A6AE55A651982B5B /* TopStepSDK */;
-			targetProxy = 7C6E7AFE2B6C820C50FC535A4A534A58 /* PBXContainerItemProxy */;
+			targetProxy = C8DC5555D45FAB342752194767625B87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -615,7 +633,7 @@
 		};
 		7279F1E35209B88BEED659310CFBD12B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D15D9FF3D868D3094639C57CD7720C4 /* TopStepSDK.release.xcconfig */;
+			baseConfigurationReference = E28FB788A3D2DE14F57ECDE11073F771 /* TopStepSDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -650,7 +668,7 @@
 		};
 		B87CDBDBF06E9A0AEF31B253ABD3560B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C7BD87817C1DCB7110B750592D6BCE7 /* TopStepSDK.debug.xcconfig */;
+			baseConfigurationReference = 3C9CD204D3094CA6B9280C614E1ADCFB /* TopStepSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;

@@ -30,7 +30,7 @@
       "name": "core",
       "source_files": "TopStepSDK/Classes/*.{h,m}",
       "public_header_files": "TopStepSDK/Classes/*.h",
-      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKit.framework",
+      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKit/TopStepComKit.framework",
       "pod_target_xcconfig": {
         "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "x86_64",
         "VALID_ARCHS": "arm64",
@@ -39,7 +39,7 @@
     },
     {
       "name": "persimwear",
-      "vendored_frameworks": "TopStepSDK/Frameworks/persimwearSDK.framework",
+      "vendored_frameworks": "TopStepSDK/Frameworks/persimwearSDK/persimwearSDK.framework",
       "dependencies": {
         "TopStepSDK/core": [
 
@@ -54,7 +54,7 @@
     },
     {
       "name": "proxy",
-      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitProxy.framework",
+      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitProxy/TopStepComKitProxy.framework",
       "dependencies": {
         "TopStepSDK/core": [
 
@@ -63,7 +63,7 @@
     },
     {
       "name": "flywear",
-      "vendored_frameworks": "TopStepSDK/Frameworks/flywearsdk.framework",
+      "vendored_frameworks": "TopStepSDK/Frameworks/flywearsdk/flywearsdk.framework",
       "dependencies": {
         "TopStepSDK/core": [
 
@@ -72,7 +72,7 @@
     },
     {
       "name": "sj",
-      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitSJ.framework",
+      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework",
       "dependencies": {
         "TopStepSDK/core": [
 
@@ -81,7 +81,7 @@
     },
     {
       "name": "fw",
-      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitFw.framework",
+      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitFw/TopStepComKitFw.framework",
       "dependencies": {
         "TopStepSDK/flywear": [
 
@@ -90,11 +90,14 @@
     },
     {
       "name": "fitcloud",
-      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitFitCloud.framework",
+      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework",
       "dependencies": {
         "TopStepSDK/core": [
 
         ]
+      },
+      "pod_target_xcconfig": {
+        "GCC_PREPROCESSOR_DEFINITIONS": "TopStepSDK_Platform_fitcloud=1"
       }
     }
   ]

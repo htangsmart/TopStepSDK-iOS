@@ -1,0 +1,6 @@
+framework module TopStepComKitFitCloud {
+  umbrella header "TopStepComKitFitCloud.h"
+  export *
+
+  module * { export * }
+}

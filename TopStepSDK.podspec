@@ -42,42 +42,47 @@ TODO: Add long description of the pod here.
   s.subspec 'core' do |sp|
     sp.source_files  = "TopStepSDK/Classes/*.{h,m}"
     sp.public_header_files = "TopStepSDK/Classes/*.h"
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKit.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKit/TopStepComKit.framework'
     sp.pod_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
         'VALID_ARCHS' => 'arm64',
-        'GCC_PREPROCESSOR_DEFINITIONS' => 'ENABLE_IDFA=1'
     }
   end
   
   s.subspec 'persimwear' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/persimwearSDK.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/persimwearSDK/persimwearSDK.framework'
     sp.dependency 'TopStepSDK/core'
     sp.libraries = 'c++', 'z', 'sqlite3', 'bz2.1.0'
   end
   
   s.subspec 'proxy' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitProxy.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitProxy/TopStepComKitProxy.framework'
     sp.dependency 'TopStepSDK/core'
   end
 
   s.subspec 'flywear' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/flywearsdk.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/flywearsdk/flywearsdk.framework'
     sp.dependency 'TopStepSDK/core'
   end
   
   s.subspec 'sj' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitSJ.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework'
     sp.dependency 'TopStepSDK/core'
   end
   
   s.subspec 'fw' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFw.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFw/TopStepComKitFw.framework'
     sp.dependency 'TopStepSDK/flywear'
   end
   s.subspec 'fitcloud' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFitCloud.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework'
     sp.dependency 'TopStepSDK/core'
+#    sp.xcconfig = {
+#        'GCC_PREPROCESSOR_DEFINITIONS' => 'TopStepSDK_Platform_fitcloud=1',
+#    }
+#    sp.pod_target_xcconfig = {
+#        'GCC_PREPROCESSOR_DEFINITIONS' => 'TopStepSDK_Platform_fitcloud=1'
+#    }
   end
 
 end
