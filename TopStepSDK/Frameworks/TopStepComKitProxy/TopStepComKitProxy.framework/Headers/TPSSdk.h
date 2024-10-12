@@ -45,13 +45,45 @@
 #import <TopStepComKit/ITPSHttpAbility.h>
 #import <TopStepComKit/ITPSSynchronousDataAbility.h>
 #import <TopStepComKit/ITPSUserInfoAbility.h>
-#import <TopStepComKitProxy/TPSDevice.h>
 #import <TopStepComKitProxy/TPSSleepDataAbilityProxy.h>
 #import <TopStepComKit/ITPSH5GameAbility.h>
 #import <TopStepComKit/ITPSFemalHeltheAbility.h>
 #import <TopStepComKit/ITPSHealthMonitorAbility.h>
 #import <TopStepComKit/ITPSAISmartAssistantAbility.h>
 #import <TopStepComKit/ITPSBodyTemperatureAbility.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+
+typedef NS_ENUM(NSUInteger, TPSSDKType) {
+    eTPSSDKUNKNOW,
+    eTPSSDKFlyWear,
+    eTPSSDKFitCloudPro,
+    eTPSSDKFWM,//绅聚
+};
+
+typedef NS_ENUM(NSUInteger, TPSDeviceType) {
+    TPSDeviceType_UNKNOW,
+    TPSDeviceType_OSW850H,
+    TPSDeviceType_OSW851H,
+    TPSDeviceType_OSW805,
+    TPSDeviceType_OSW802N,
+};
+
+@interface TPSDeviceModel : NSObject
+/// 设备信息
+@property (nonatomic, strong) CBPeripheral * peripheral;
+/// 厂商信息对应的设备类型
+@property (nonatomic, assign) TPSDeviceType deviceType;
+/// 该设备使用的SDK类型
+@property (nonatomic, assign) TPSSDKType sdkType;
+/// 广播包信息
+@property (nonatomic, copy) NSDictionary<NSString *, id> * advertisementData;
+/// mac地址
+@property (nonatomic, copy) NSString * mac;
+/// 信号强度
+@property (nonatomic, copy) NSNumber * rssi;
+/// 设备名称
+@property (nonatomic, copy) NSString * name;
+@end
 
 /// 设备连接回调
 @protocol ITPSConnectDelegate <NSObject> @end
@@ -69,19 +101,45 @@
 
 @interface TPSSdk : NSObject
 
+/// 当前连接的设备信息  peripheral、rssi、advertisementData只有在首次连接时才保证有值
+@property (nonatomic, strong, readonly) TPSDeviceModel * currentDevice;
+/// 当前使用的SDK类型
+@property (nonatomic, assign, readonly) TPSSDKType sdkType;
+
+/// 扫描设备
+- (void)scanDevice:(void(^)(TPSDeviceModel *device))result;
+
+/// 停止扫描
+- (void)stopScan;
+
+/// 重连上次连接的设备
+- (void)reconnectLastDevice:(void(^)(TPSConnnectResult_State state, TPSConnnectResult_Error_Code errorCode))result delegate:(id<TPSSdkDelegate>)delegate extraParam:(TPSExtraConnectParam *)extraParam;
+
+/// 连接设备
+- (void)connectDevWithModel:(TPSDeviceModel *)model result:(void(^)(TPSConnnectResult_State state, TPSConnnectResult_Error_Code errorCode))result delegate:(id<TPSSdkDelegate>)delegate extraParam:(TPSExtraConnectParam *)extraParam;
+
+/// 根据mac地址和设备类型连接设备
+- (void)connectDevWithMacAddress:(NSString *)mac deviceType:(TPSDeviceType)deviceType result:(void(^)(TPSConnnectResult_State state, TPSConnnectResult_Error_Code errorCode))result delegate:(id<TPSSdkDelegate>)delegate extraParam:(TPSExtraConnectParam *)extraParam;
+
+/// 根据mac地址查找设备
+/// @param delayTime 超时时间
+- (void)findDeviceByMacAddress:(NSString *)mac delayTime:(int)delayTime result:(void(^)(TPSDeviceModel * device))result;
+
+/// 断开当前设备的连接 接口会先调用stopScan停止扫描
+- (void)disconnect;
+
+/// 解除当前设备的绑定
+- (void)unbindDevWithUserId:(NSString*)userId result:(void(^)(NSError * error))result;
+
 +(instancetype)share;
 
-- (TPSSDKType)sdkType;
-- (void)initDeviceTypeWith:(TPSDeviceType)deviceType delegate:(id<TPSSdkDelegate>)delegate;
-- (void)initDeviceTypeWith:(TPSDeviceType)deviceType
+- (NSError *)tpsInitDeviceTypeWith:(TPSDeviceType)deviceType delegate:(id<TPSSdkDelegate>)delegate NS_DEPRECATED_IOS(1_0, 2_0, "改为在连接设备时根据设备类型自动初始化，不在需要手动初始化");
+- (NSError *)tpsInitDeviceTypeWith:(TPSDeviceType)deviceType
            connectDelegate:(id<ITPSConnectDelegate>)connectDelegate
               appsDelegate:(id<ITPSAppsDelegate>)appsDelegate
              infosDelegate:(id<ITPSInfosDelegate>)infosDelegate
          datasSyncDelegate:(id<ITPSDatasSyncDelegate>)datasSyncDelegate
-          settingsDelegate:(id<ITPSSettingsDelegate>)settingsDelegate;
-
-
-- (void)initSdk;
+          settingsDelegate:(id<ITPSSettingsDelegate>)settingsDelegate NS_DEPRECATED_IOS(1_0, 2_0, "改为在连接设备时根据设备类型自动初始化，不在需要手动初始化");
 
 /// 查询该设备是否支持某个功能 ability不存在或未实现selector均返回false
 - (BOOL)supportSelector:(SEL)selector ability:(id)ability;
@@ -89,7 +147,7 @@
 /**
  设备连接相关
  */
-@property(nonatomic, strong, readonly) id<ITPSConnectorAbility> connectorAbility;
+@property(nonatomic, strong, readonly) id<ITPSConnectorAbility> connectorAbility NS_DEPRECATED_IOS(1_0, 2_0, "请使用TPSSDK中关于蓝牙连接的相关方法");
 
 /**
  文件传输相关，获取手表指定文件夹的文件列表及向对应文件夹传输文件

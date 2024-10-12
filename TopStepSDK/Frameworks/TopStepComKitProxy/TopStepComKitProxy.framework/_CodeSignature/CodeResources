@@ -12,13 +12,9 @@
 		<data>
 		NtP2nozpMQBSJxL+2CH9gX39tWY=
 		</data>
-		<key>Headers/TPSDevice.h</key>
-		<data>
-		o958mVNouiXQl0Ecqzl3reri2w8=
-		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
-		xUrGzod4ZrSvgJtNUG1lR5c5+fk=
+		sU09Uz3MXn231IHomaGo9x87h0s=
 		</data>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<data>
@@ -34,7 +30,7 @@
 		</data>
 		<key>Headers/TopStepComKitProxy.h</key>
 		<data>
-		33jU02A5mQAzV860e1xRMHYlPSg=
+		S8pRHEj18VPDYLOin4VpFIz52Rk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -54,7 +50,7 @@
 		</data>
 		<key>Modules/TopStepComKitProxy.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		D/8z46e4KI3oaXeF7CIlP920cwI=
+		t9q0Ul5TnJfbOzsXwQFMuU2AZ1M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,26 +85,15 @@
 			S+vn3r89SjRd1ABI7kUoQZwH5bfb68yJ1klIiLYqxNw=
 			</data>
 		</dict>
-		<key>Headers/TPSDevice.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o958mVNouiXQl0Ecqzl3reri2w8=
-			</data>
-			<key>hash2</key>
-			<data>
-			51Jtih0kGYzMsN/qRj+vv3vhtcNeM7Pwb7Y4LEYvJes=
-			</data>
-		</dict>
 		<key>Headers/TPSSdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xUrGzod4ZrSvgJtNUG1lR5c5+fk=
+			sU09Uz3MXn231IHomaGo9x87h0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			MlC1u36zSWBOMMMm069m0djXTserrW7nhmuQyU6V7wk=
+			r3sR14nL3HssrmglZ/LfuJz/Hh+dqAENdpJqRx6HptE=
 			</data>
 		</dict>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
@@ -148,11 +133,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			33jU02A5mQAzV860e1xRMHYlPSg=
+			S8pRHEj18VPDYLOin4VpFIz52Rk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vQp6neE+4YUNwS3kX3rYliavn/D8ZAdKF+b7FMdTzRg=
+			nK+89aAtzTJiDKpyIdAAejgbobC5Qw36ea77SlfzOjI=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKitProxy.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
@@ -192,11 +177,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D/8z46e4KI3oaXeF7CIlP920cwI=
+			t9q0Ul5TnJfbOzsXwQFMuU2AZ1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			gZzZoj4nwTX9noiZbxkJIW1TXpXQ97GczXC11bDDXE8=
+			/DoJtSdwUphv6dKsHlpWmWzlhXjrKmlf6TxPgp+z58s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

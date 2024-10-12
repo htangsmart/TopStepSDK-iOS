@@ -9,12 +9,14 @@
 #import "TSRootViewController.h"
 #if __has_include(<TopStepComKitProxy/TopStepComKitProxy.h>)
     #import <TopStepComKitProxy/TopStepComKitProxy.h>
+#import <TopStepComKitProxy/TopStepComKitProxy-Swift.h>
 #endif
 
 #if __has_include(<TopStepComKitFitCloud/TopStepComKitFitCloud.h>)
     #import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
 #endif
 //#import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
+
 #import "TopStepCoreClass.h"
 
 @interface TSRootViewController ()<UITableViewDelegate, UITableViewDataSource, TPSSdkDelegate>
@@ -66,7 +68,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.row == 0) {
-        [TPSSdk.share initDeviceTypeWith:TPSDeviceType_OSW850H delegate:self];
+        [TPSSdk.share tpsInitDeviceTypeWith:TPSDeviceType_OSW850H delegate:self];
     }
     
 }

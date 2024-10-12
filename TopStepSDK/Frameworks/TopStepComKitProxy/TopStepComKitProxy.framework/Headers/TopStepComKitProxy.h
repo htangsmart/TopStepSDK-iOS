@@ -16,7 +16,6 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitProxyVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <TopStepComKitProxy/PublicHeader.h>
 
 #import <TopStepComKit/TopStepComKit.h>
-#import <TopStepComKitProxy/TPSDevice.h>
 #import <TopStepComKitProxy/TPSSleepDataAbilityProxy.h>
 #import <TopStepComKitProxy/TPSSdk.h>
 #import <TopStepComKitProxy/TPSDaySleepEntity.h>
