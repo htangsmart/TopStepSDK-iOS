@@ -7,16 +7,14 @@
 //
 
 #import "TSNavViewController.h"
+#import <TopStepComKitProxy/TopStepComKitProxy.h>
 
 @interface TSNavViewController ()
-
 @end
 
 @implementation TSNavViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 @end

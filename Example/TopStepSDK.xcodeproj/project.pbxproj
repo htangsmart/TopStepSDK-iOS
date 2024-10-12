@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1D3A99B42CB5002C0005F124 /* TSNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A99B32CB5002C0005F124 /* TSNavViewController.m */; };
 		1D3A99B72CB5004E0005F124 /* TSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A99B62CB5004E0005F124 /* TSRootViewController.m */; };
+		4B68691B2CBA729D00551F8F /* TSConnectDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68691A2CBA729D00551F8F /* TSConnectDeviceViewController.m */; };
+		4B6869202CBA855100551F8F /* TSDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B68691F2CBA855100551F8F /* TSDeviceManager.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -27,6 +29,10 @@
 		1D3A99B32CB5002C0005F124 /* TSNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSNavViewController.m; sourceTree = "<group>"; };
 		1D3A99B52CB5004E0005F124 /* TSRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRootViewController.h; sourceTree = "<group>"; };
 		1D3A99B62CB5004E0005F124 /* TSRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSRootViewController.m; sourceTree = "<group>"; };
+		4B6869192CBA729D00551F8F /* TSConnectDeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSConnectDeviceViewController.h; sourceTree = "<group>"; };
+		4B68691A2CBA729D00551F8F /* TSConnectDeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSConnectDeviceViewController.m; sourceTree = "<group>"; };
+		4B68691E2CBA855100551F8F /* TSDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDeviceManager.h; sourceTree = "<group>"; };
+		4B68691F2CBA855100551F8F /* TSDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSDeviceManager.m; sourceTree = "<group>"; };
 		4ECF69E26FFCD6139BC90C65 /* Pods_TopStepSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopStepSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TopStepSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopStepSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +70,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B6869172CBA60A700551F8F /* BlueToothLink */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BlueToothLink;
+			sourceTree = "<group>";
+		};
+		4B68691C2CBA72A200551F8F /* ConnectDevice */ = {
+			isa = PBXGroup;
+			children = (
+				4B6869192CBA729D00551F8F /* TSConnectDeviceViewController.h */,
+				4B68691A2CBA729D00551F8F /* TSConnectDeviceViewController.m */,
+				4B68691E2CBA855100551F8F /* TSDeviceManager.h */,
+				4B68691F2CBA855100551F8F /* TSDeviceManager.m */,
+			);
+			name = ConnectDevice;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +128,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				1D3A99B22CB5002C0005F124 /* TSNavViewController.h */,
 				1D3A99B32CB5002C0005F124 /* TSNavViewController.m */,
+				4B68691C2CBA72A200551F8F /* ConnectDevice */,
 				1D3A99B52CB5004E0005F124 /* TSRootViewController.h */,
 				1D3A99B62CB5004E0005F124 /* TSRootViewController.m */,
+				4B6869172CBA60A700551F8F /* BlueToothLink */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -265,6 +291,8 @@
 				6003F59E195388D20070C39A /* TSAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				1D3A99B42CB5002C0005F124 /* TSNavViewController.m in Sources */,
+				4B68691B2CBA729D00551F8F /* TSConnectDeviceViewController.m in Sources */,
+				4B6869202CBA855100551F8F /* TSDeviceManager.m in Sources */,
 				1D3A99B72CB5004E0005F124 /* TSRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

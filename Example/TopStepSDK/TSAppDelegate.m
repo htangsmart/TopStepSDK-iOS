@@ -7,7 +7,7 @@
 //
 
 #import "TSAppDelegate.h"
-#import "TSRootViewController.h"
+#import "TSConnectDeviceViewController.h"
 #import "TSNavViewController.h"
 @implementation TSAppDelegate
 
@@ -15,7 +15,7 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[TSNavViewController alloc]initWithRootViewController:[[TSRootViewController alloc] init]];
+    self.window.rootViewController = [[TSNavViewController alloc]initWithRootViewController:[[TSConnectDeviceViewController alloc] init]];
     [self.window makeKeyAndVisible];
     
     return YES;
