@@ -134,8 +134,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.row == 0) {
+    NSString *title = self.dataArray[indexPath.section][indexPath.row];
+    NSLog(@"标题====%@",title);
+    if ([title isEqualToString:@"蓝牙连接测试"]) {
         [TPSSdk.share tpsInitDeviceTypeWith:TPSDeviceType_OSW850H delegate:self];
+    }else if ([title isEqualToString:@"手表链接成功自动同步逻辑"]) {
+        
     }
     
 }
