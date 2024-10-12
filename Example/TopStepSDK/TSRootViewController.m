@@ -31,13 +31,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"主要功能Demo";
+    NSArray *sec0 = @[
+        @"蓝牙连接测试",
+        @"手表链接成功自动同步逻辑",
+        @"搜索+绑定流程修改（手表平台选择）",
+        @"查找手表",
+        @"查找手机",
+        @"同步数据",
+        @"固件OTA",
+    ];
    NSArray *sec1 = @[
-    @"蓝牙连接测试",
-    @"手表链接成功自动同步逻辑",
-    @"搜索+绑定流程修改（手表平台选择）",
-    @"查找手表",
-    @"查找手机",
-    @"固件OTA",
     @"女性健康",
     @"吃药、喝水、久坐、自定义配置",
     @"单位配置",
@@ -87,7 +90,7 @@
     @"Fitcloudpro新增log指令联调"
     ];
     
-    self.dataArray = @[sec1, sec2, sec3];
+    self.dataArray = @[sec0, sec1, sec2, sec3];
     // Do any additional setup after loading the view.
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStyleGrouped];
     self.tableView.dataSource = self;
