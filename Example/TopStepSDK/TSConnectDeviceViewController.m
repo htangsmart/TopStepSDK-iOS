@@ -10,6 +10,8 @@
 #import "TSDeviceManager.h"
 #import "TSRootViewController.h"
 
+#import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
+
 @interface TSConnectDeviceViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UIButton * connectStateBtn;
 @property (nonatomic, strong) UIButton * funcationListBtn;
@@ -17,6 +19,7 @@
 
 @property (nonatomic, strong) NSMutableArray<TPSDeviceModel *> * deviceArray;
 
+@property (nonatomic, assign) BOOL binding;
 @property (nonatomic, assign) BOOL scanning;
 @end
 
@@ -82,7 +85,9 @@
        
         NSLog(@"解绑操作完成 error = %@", error);
         _connectStateBtn.enabled = error != nil;
-        [_connectStateBtn setTitle:error ? @"解绑成功" : @"解绑失败" forState:(UIControlStateNormal)];
+        NSString *title = [NSString stringWithFormat:@"已连接设备%@ 解绑失败", TPSSdk.share.currentDevice.name];
+        [_connectStateBtn setTitle:error ? @"解绑成功 点击扫描设备" : title forState:(UIControlStateNormal)];
+        _funcationListBtn.enabled = error == nil;
     }];
 }
 
@@ -179,10 +184,49 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (_binding) {
+        NSLog(@"当前正在绑定中，请等待上次绑定操作结束.");
+        return;
+    }
+    [self stopScan];
+    
+    _binding = true;
+    [_connectStateBtn setTitle:@"绑定中..." forState:(UIControlStateNormal)];
+    _funcationListBtn.enabled = TPSSdk.share.currentDevice;
+    _connectStateBtn.enabled = false;
+
     TPSDeviceModel *deviceModel = self.deviceArray[indexPath.row];
     NSLog(@"选择设备：%@, %@, type: %d", deviceModel.name, deviceModel.mac, deviceModel.deviceType);
     [TPSSdk.share connectDevWithModel:deviceModel result:^(TPSConnnectResult_State state, TPSConnnectResult_Error_Code errorCode) {
-        NSLog(@"");
+        
+        NSLog(@"绑定结果 state = %d, errorCode = %hhu", state, errorCode);
+        // 绑定失败
+        if (state == TPSConnnectResult_State_Disconnected) {
+            
+            FitCloudSdk *sdw = FitCloudSdk.share;
+            Class sdkClass = NSClassFromString(@"FitCloudSdk");
+            
+            if(sdkClass == nil || ![sdkClass respondsToSelector:@selector(share)]){
+            
+                NSLog(@"--<<--");
+            }
+            
+            self.binding = false;
+            [_connectStateBtn setTitle:@"绑定失败" forState:(UIControlStateNormal)];
+            _connectStateBtn.enabled = true;
+
+        }
+        
+        // 绑定成功
+        if (state == TPSConnnectResult_State_Connected) {
+            
+            self.binding = false;
+            NSString *title = [NSString stringWithFormat:@"已连接设备%@ 点击解绑", TPSSdk.share.currentDevice.name];
+            [_connectStateBtn setTitle:title forState:(UIControlStateNormal)];
+            _connectStateBtn.enabled = true;
+            _funcationListBtn.enabled = true;
+        }
     } delegate:[TSDeviceManager share] extraParam:nil];
     
 }
