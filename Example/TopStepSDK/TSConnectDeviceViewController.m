@@ -177,5 +177,14 @@
     }
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    TPSDeviceModel *deviceModel = self.deviceArray[indexPath.row];
+    NSLog(@"选择设备：%@, %@, type: %d", deviceModel.name, deviceModel.mac, deviceModel.deviceType);
+    [TPSSdk.share connectDevWithModel:deviceModel result:^(TPSConnnectResult_State state, TPSConnnectResult_Error_Code errorCode) {
+        NSLog(@"");
+    } delegate:[TSDeviceManager share] extraParam:nil];
+    
+}
 @end
 

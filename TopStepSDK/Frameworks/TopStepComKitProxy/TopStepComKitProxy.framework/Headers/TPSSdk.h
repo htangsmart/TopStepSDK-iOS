@@ -106,8 +106,11 @@ typedef NS_ENUM(NSUInteger, TPSDeviceType) {
 /// 当前使用的SDK类型
 @property (nonatomic, assign, readonly) TPSSDKType sdkType;
 
+/// 获取可重连设备信息
+- (void)getReconnectableDeviceInformation:(void(^)(NSString * _Nullable mac, TPSSDKType sdkType, TPSDeviceType deviceType, NSString * _Nullable deviceName))result;
+
 /// 扫描设备
-- (void)scanDevice:(void(^)(TPSDeviceModel *device))result;
+- (void)scanDeviceDuration:(int)duration result:(void(^)(TPSDeviceModel * _Nullable device, BOOL scanEnd))result;
 
 /// 停止扫描
 - (void)stopScan;
