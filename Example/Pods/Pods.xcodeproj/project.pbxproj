@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AC1F46279490F9B42F3E229E5000C0B /* TopStepSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C880ECA494DB390753B53D2D688A7619 /* TopStepSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EE778EFC58074661A462CC234AFBC4C /* TopStepSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087409ECAC4D6DC5B8CF8FD92B551F18 /* TopStepSDK-dummy.m */; };
-		219E548E259BF1971E7991C391981F18 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5712191FDBE766AD280D29F744E28E /* CoreBluetooth.framework */; };
-		272EB7A789FC7277D0F1E360A4F6357E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E82B0C501E3E14324B9187EEB00441 /* Foundation.framework */; };
-		2BB1E6C312D61090B38C426917AE85AB /* TopStepCoreClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D70F1165C2A044F010D61FD5D673B17E /* TopStepCoreClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CA472C004ECAAA59549BF20C8F955D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D65EA472C08E60BFEC99DA355B8179D /* UIKit.framework */; };
-		49D0105E34F36DDB7FA7ACDF2D260E87 /* TopStepCoreClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD443BEDFAE2A5027B659E89A6CB16 /* TopStepCoreClass.m */; };
+		2D790F7D513D447FEFA60D0F46D45B4B /* TopStepSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB74BB911028039F0E18380ED8F2D66 /* TopStepSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3150C9B2D02F9D7A3D9B186B1F56E3ED /* TopStepCoreClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC932AE67282683612F29892D569F09 /* TopStepCoreClass.m */; };
 		55C7C740531507A7995388E0CF000A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E82B0C501E3E14324B9187EEB00441 /* Foundation.framework */; };
+		5688BEF36134AC8852F818E3DD2A93F3 /* TopStepSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CF7EBE1CE72DD430E1B03F610423F2 /* TopStepSDK-dummy.m */; };
+		6966876EB3E94AFDE8951812087D4CB3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5712191FDBE766AD280D29F744E28E /* CoreBluetooth.framework */; };
+		71C0F5E9D8B366839FCCF42F03F26B3C /* TopStepCoreClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDA853233CD482F885727E57C5D0C77 /* TopStepCoreClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FCE568C398FCA5058D3C3B07EB60165 /* Pods-TopStepSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 817AA5F0899F6E722833A0A85DBE595A /* Pods-TopStepSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C11D59C38D970324237A9CAA9C24B4 /* Pods-TopStepSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54346256F37E7E1D7D48906D79F8184C /* Pods-TopStepSDK_Example-dummy.m */; };
+		D9C69245B604054F1C682B11EC79FBF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D65EA472C08E60BFEC99DA355B8179D /* UIKit.framework */; };
+		F632A1873AB19326A73C4D1133B51287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E82B0C501E3E14324B9187EEB00441 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C8DC5555D45FAB342752194767625B87 /* PBXContainerItemProxy */ = {
+		55960850F0E7B9102AA28A977755E941 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,38 +30,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037DE8094CAB5FE1A636C7B6153B8A73 /* TopStepSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TopStepSDK-Info.plist"; sourceTree = "<group>"; };
-		04D315545F166C5077B7ADEEBDC7939A /* TopStepComKitFw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFw.framework; path = TopStepSDK/Frameworks/TopStepComKitFw/TopStepComKitFw.framework; sourceTree = "<group>"; };
-		087409ECAC4D6DC5B8CF8FD92B551F18 /* TopStepSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TopStepSDK-dummy.m"; sourceTree = "<group>"; };
+		06749D99F84749213CBA9D413EC82A2C /* FitCloudNWFKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FitCloudNWFKit.xcframework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudNWFKit/FitCloudNWFKit/FitCloudNWFKit.xcframework; sourceTree = "<group>"; };
 		0D455DC4C17B36DCE1412F586BA14C58 /* Pods-TopStepSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TopStepSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16212294128537A7A916E5E67C041255 /* Pods-TopStepSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TopStepSDK_Example"; path = Pods_TopStepSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7D4784C3BA393CEFCFAAFE191E09EE /* FitCloudWFKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FitCloudWFKit.xcframework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudWFKit/FitCloudWFKit/FitCloudWFKit.xcframework; sourceTree = "<group>"; };
+		1E2DA86F97D2351FC53FAC6F5007D7B9 /* TopStepComKitFw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFw.framework; path = TopStepSDK/Frameworks/TopStepComKitFw/TopStepComKitFw.framework; sourceTree = "<group>"; };
+		1E2E412C95AC84B3161FEDE5888F7314 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3738D74627E5AF989F012E78C44A5E71 /* Pods-TopStepSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TopStepSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C9CD204D3094CA6B9280C614E1ADCFB /* TopStepSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.debug.xcconfig; sourceTree = "<group>"; };
 		3D65EA472C08E60BFEC99DA355B8179D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		3DC18823F0AFD880C5A0107D7DFE9216 /* TopStepSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-prefix.pch"; sourceTree = "<group>"; };
+		45EEAE33EE5EECF18982B3A0C128282F /* TopStepSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.release.xcconfig; sourceTree = "<group>"; };
+		4BDA853233CD482F885727E57C5D0C77 /* TopStepCoreClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TopStepCoreClass.h; path = TopStepSDK/Classes/TopStepCoreClass.h; sourceTree = "<group>"; };
+		4D260AC2708ED78095C033C0F0CAC11E /* TopStepSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TopStepSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		4D5712191FDBE766AD280D29F744E28E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
-		4DBD443BEDFAE2A5027B659E89A6CB16 /* TopStepCoreClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TopStepCoreClass.m; path = TopStepSDK/Classes/TopStepCoreClass.m; sourceTree = "<group>"; };
 		54346256F37E7E1D7D48906D79F8184C /* Pods-TopStepSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TopStepSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		54E5E5E454B25AEAC5D4689418268734 /* Pods-TopStepSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TopStepSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		5AC932AE67282683612F29892D569F09 /* TopStepCoreClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TopStepCoreClass.m; path = TopStepSDK/Classes/TopStepCoreClass.m; sourceTree = "<group>"; };
 		65E82B0C501E3E14324B9187EEB00441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A7687849A9D9DF07A8A20DFCD0C685E /* TopStepComKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKit.framework; path = TopStepSDK/Frameworks/TopStepComKit/TopStepComKit.framework; sourceTree = "<group>"; };
+		67CF7EBE1CE72DD430E1B03F610423F2 /* TopStepSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TopStepSDK-dummy.m"; sourceTree = "<group>"; };
+		6F324A7131D038972F69DFF58A23F9C7 /* FitCloudKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FitCloudKit.xcframework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudKit/FitCloudKit/FitCloudKit.xcframework; sourceTree = "<group>"; };
+		7123C0F24A9F4168034D04F4BD8C5BBB /* TopStepComKitProxy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitProxy.framework; path = TopStepSDK/Frameworks/TopStepComKitProxy/TopStepComKitProxy.framework; sourceTree = "<group>"; };
+		788E47FCF95E64DE5A3C8F11AF93AFC0 /* TopStepSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TopStepSDK.modulemap; sourceTree = "<group>"; };
 		7FFFF2373C3E6757308E6B30C3FD559D /* Pods-TopStepSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TopStepSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		817AA5F0899F6E722833A0A85DBE595A /* Pods-TopStepSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TopStepSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		830FF4610A4075530BDF5F456525261F /* TopStepSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TopStepSDK; path = TopStepSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ED8E2138F9E912D856E71E52BE08BAF /* TopStepSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TopStepSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93DAC67814B801DB4200AC48412A5E16 /* TopStepSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TopStepSDK.modulemap; sourceTree = "<group>"; };
+		9CB1436752546B015BE8A1491425E46F /* TopStepSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TopStepSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2FE77B63FA308BCA43F75174EA306F5 /* TopStepComKitSJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitSJ.framework; path = TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework; sourceTree = "<group>"; };
 		B8438C159C90426E96FF12D42FCCC4D5 /* Pods-TopStepSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TopStepSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C880ECA494DB390753B53D2D688A7619 /* TopStepSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-umbrella.h"; sourceTree = "<group>"; };
-		CF910E1A328F8CD7464D3B928A311478 /* TopStepComKitSJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitSJ.framework; path = TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework; sourceTree = "<group>"; };
-		D2F8456B400D0499A5AB87FDB4763A60 /* TopStepComKitFitCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFitCloud.framework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework; sourceTree = "<group>"; };
-		D70F1165C2A044F010D61FD5D673B17E /* TopStepCoreClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TopStepCoreClass.h; path = TopStepSDK/Classes/TopStepCoreClass.h; sourceTree = "<group>"; };
-		DA7C84CD5054A75388339E1D2EBFB1BF /* flywearsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flywearsdk.framework; path = TopStepSDK/Frameworks/flywearsdk/flywearsdk.framework; sourceTree = "<group>"; };
-		DF2A66DF363775798BBF057D5EF65997 /* TopStepComKitProxy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitProxy.framework; path = TopStepSDK/Frameworks/TopStepComKitProxy/TopStepComKitProxy.framework; sourceTree = "<group>"; };
-		E28FB788A3D2DE14F57ECDE11073F771 /* TopStepSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.release.xcconfig; sourceTree = "<group>"; };
+		BD6DE6E398B2CCA0990496B8F30BD255 /* FitCloudDFUKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FitCloudDFUKit.xcframework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudDFUKit/FitCloudDFUKit/FitCloudDFUKit.xcframework; sourceTree = "<group>"; };
+		C4663C16F24314F83C954707B4F5B7A7 /* TopStepSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TopStepSDK-Info.plist"; sourceTree = "<group>"; };
+		CFB74BB911028039F0E18380ED8F2D66 /* TopStepSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-umbrella.h"; sourceTree = "<group>"; };
+		D61A9AB068A5A07B095A133355BC7A67 /* TopStepSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TopStepSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D67F539395A0DA92B6C46C33A42857F2 /* TopStepComKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKit.framework; path = TopStepSDK/Frameworks/TopStepComKit/TopStepComKit.framework; sourceTree = "<group>"; };
+		DA7984270EF0F72270E70E9F1FADF60F /* flywearsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flywearsdk.framework; path = TopStepSDK/Frameworks/flywearsdk/flywearsdk.framework; sourceTree = "<group>"; };
+		E2D26964D389A9B256F9FAC1B8A9D1FB /* TopStepSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TopStepSDK-prefix.pch"; sourceTree = "<group>"; };
+		F3B83F59EE4CC0BC68D3BDA185EEF404 /* TopStepComKitFitCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TopStepComKitFitCloud.framework; path = TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework; sourceTree = "<group>"; };
 		FA2C8390EB2CB241B016FF26F6B5482D /* Pods-TopStepSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TopStepSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FEF1D7C8E9C7CCBFFE1B08B25F6FCBB7 /* Pods-TopStepSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TopStepSDK_Example.modulemap"; sourceTree = "<group>"; };
-		FF3D688CF6F9ACC733E406491524C22C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +78,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		456CF49F5188CDFB419281A430ECCD6C /* Frameworks */ = {
+		5EF465FCE3DC4789AD52F244CFBDA8C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219E548E259BF1971E7991C391981F18 /* CoreBluetooth.framework in Frameworks */,
-				272EB7A789FC7277D0F1E360A4F6357E /* Foundation.framework in Frameworks */,
-				3CA472C004ECAAA59549BF20C8F955D5 /* UIKit.framework in Frameworks */,
+				6966876EB3E94AFDE8951812087D4CB3 /* CoreBluetooth.framework in Frameworks */,
+				F632A1873AB19326A73C4D1133B51287 /* Foundation.framework in Frameworks */,
+				D9C69245B604054F1C682B11EC79FBF7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,60 +116,53 @@
 			path = "Target Support Files/Pods-TopStepSDK_Example";
 			sourceTree = "<group>";
 		};
-		2EAA3A063D745A535DCD013C1F8455D4 /* Frameworks */ = {
+		25E1C43EF581CDDF5D3DFB0D094550A6 /* proxy */ = {
 			isa = PBXGroup;
 			children = (
-				DF2A66DF363775798BBF057D5EF65997 /* TopStepComKitProxy.framework */,
+				96340BBECDCDC8053BA69CF503FD45B8 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = proxy;
 			sourceTree = "<group>";
 		};
-		2F4AEB8474E2E71B74AC98D41E218852 /* TopStepSDK */ = {
+		289284AF99C933DA9982F8D711B1FA41 /* TopStepSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CFE3DA2A495808010FAB09F7D5C48080 /* core */,
-				B291CA692CEF9B693E1C993C6EE5CA0E /* fitcloud */,
-				B799282C09E1E1FE97E60B3A3D9EB824 /* flywear */,
-				E4E90873775B9D5F2501D216F78E135C /* fw */,
-				C910190907AEB97BBBD0AEFA57167382 /* Pod */,
-				45520F903D173859D6E8B5B6F9661426 /* proxy */,
-				F7D0AEC4EADAE7FAE7BA8D5C4F9B47D8 /* sj */,
-				AC9123DB24DECADC6ACD3FF4DB1EB112 /* Support Files */,
+				C992CC0121E7DC3E14EEA7EA496908FF /* core */,
+				DC89BB7CE54579090F102D201A339104 /* fitcloud */,
+				A32AF90D7B897D091ED7F4F567B69D0A /* flywear */,
+				9263CCC85A7599ABCCCCCE43946FAB5D /* fw */,
+				37D912ABA3DB9C658D85CE5C5CF9425B /* Pod */,
+				25E1C43EF581CDDF5D3DFB0D094550A6 /* proxy */,
+				59ED3054BC20E6C60193D2701AFB5B65 /* sj */,
+				FD24C9948C41432FEFC3F459FE6277BC /* Support Files */,
 			);
 			name = TopStepSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		429D6706AA53C5E3295621B3D37CCAE0 /* Frameworks */ = {
+		37D912ABA3DB9C658D85CE5C5CF9425B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				04D315545F166C5077B7ADEEBDC7939A /* TopStepComKitFw.framework */,
+				1E2E412C95AC84B3161FEDE5888F7314 /* README.md */,
+				9CB1436752546B015BE8A1491425E46F /* TopStepSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3D7662CCE8C7ADB18AB8EA26A87656CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2FE77B63FA308BCA43F75174EA306F5 /* TopStepComKitSJ.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		43BA8BEEEA8CA72BAE880F54E8C658DF /* Frameworks */ = {
+		59ED3054BC20E6C60193D2701AFB5B65 /* sj */ = {
 			isa = PBXGroup;
 			children = (
-				6A7687849A9D9DF07A8A20DFCD0C685E /* TopStepComKit.framework */,
+				3D7662CCE8C7ADB18AB8EA26A87656CD /* Frameworks */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		45520F903D173859D6E8B5B6F9661426 /* proxy */ = {
-			isa = PBXGroup;
-			children = (
-				2EAA3A063D745A535DCD013C1F8455D4 /* Frameworks */,
-			);
-			name = proxy;
-			sourceTree = "<group>";
-		};
-		5A1C3D2224DF369929E0D4D3AF7DBAA7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DA7C84CD5054A75388339E1D2EBFB1BF /* flywearsdk.framework */,
-			);
-			name = Frameworks;
+			name = sj;
 			sourceTree = "<group>";
 		};
 		76C53BC114CEBC560AED7656AF4FD075 /* iOS */ = {
@@ -177,12 +175,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		9263CCC85A7599ABCCCCCE43946FAB5D /* fw */ = {
+			isa = PBXGroup;
+			children = (
+				AF9A49E7FF9B1546602720889430B919 /* Frameworks */,
+			);
+			name = fw;
+			sourceTree = "<group>";
+		};
+		96340BBECDCDC8053BA69CF503FD45B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7123C0F24A9F4168034D04F4BD8C5BBB /* TopStepComKitProxy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A284D2D29F258A1DFF0CB2675AFEA72A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F4AEB8474E2E71B74AC98D41E218852 /* TopStepSDK */,
+				289284AF99C933DA9982F8D711B1FA41 /* TopStepSDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A32AF90D7B897D091ED7F4F567B69D0A /* flywear */ = {
+			isa = PBXGroup;
+			children = (
+				C892584DDA2A720D6E73E5014C0B8F49 /* Frameworks */,
+			);
+			name = flywear;
 			sourceTree = "<group>";
 		};
 		A3C24E4885376E5A1769C68147961411 /* Targets Support Files */ = {
@@ -193,52 +215,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A58CD839DA99DB5FB011274006284294 /* Frameworks */ = {
+		AF9A49E7FF9B1546602720889430B919 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D2F8456B400D0499A5AB87FDB4763A60 /* TopStepComKitFitCloud.framework */,
+				1E2DA86F97D2351FC53FAC6F5007D7B9 /* TopStepComKitFw.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AC9123DB24DECADC6ACD3FF4DB1EB112 /* Support Files */ = {
+		C892584DDA2A720D6E73E5014C0B8F49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93DAC67814B801DB4200AC48412A5E16 /* TopStepSDK.modulemap */,
-				087409ECAC4D6DC5B8CF8FD92B551F18 /* TopStepSDK-dummy.m */,
-				037DE8094CAB5FE1A636C7B6153B8A73 /* TopStepSDK-Info.plist */,
-				3DC18823F0AFD880C5A0107D7DFE9216 /* TopStepSDK-prefix.pch */,
-				C880ECA494DB390753B53D2D688A7619 /* TopStepSDK-umbrella.h */,
-				3C9CD204D3094CA6B9280C614E1ADCFB /* TopStepSDK.debug.xcconfig */,
-				E28FB788A3D2DE14F57ECDE11073F771 /* TopStepSDK.release.xcconfig */,
+				DA7984270EF0F72270E70E9F1FADF60F /* flywearsdk.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TopStepSDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B291CA692CEF9B693E1C993C6EE5CA0E /* fitcloud */ = {
+		C992CC0121E7DC3E14EEA7EA496908FF /* core */ = {
 			isa = PBXGroup;
 			children = (
-				A58CD839DA99DB5FB011274006284294 /* Frameworks */,
+				4BDA853233CD482F885727E57C5D0C77 /* TopStepCoreClass.h */,
+				5AC932AE67282683612F29892D569F09 /* TopStepCoreClass.m */,
+				E92BCB3BD7369ADC19C9E5FC4F06A833 /* Frameworks */,
 			);
-			name = fitcloud;
-			sourceTree = "<group>";
-		};
-		B799282C09E1E1FE97E60B3A3D9EB824 /* flywear */ = {
-			isa = PBXGroup;
-			children = (
-				5A1C3D2224DF369929E0D4D3AF7DBAA7 /* Frameworks */,
-			);
-			name = flywear;
-			sourceTree = "<group>";
-		};
-		C910190907AEB97BBBD0AEFA57167382 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FF3D688CF6F9ACC733E406491524C22C /* README.md */,
-				8ED8E2138F9E912D856E71E52BE08BAF /* TopStepSDK.podspec */,
-			);
-			name = Pod;
+			name = core;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -252,22 +252,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		CFE3DA2A495808010FAB09F7D5C48080 /* core */ = {
+		DC89BB7CE54579090F102D201A339104 /* fitcloud */ = {
 			isa = PBXGroup;
 			children = (
-				D70F1165C2A044F010D61FD5D673B17E /* TopStepCoreClass.h */,
-				4DBD443BEDFAE2A5027B659E89A6CB16 /* TopStepCoreClass.m */,
-				43BA8BEEEA8CA72BAE880F54E8C658DF /* Frameworks */,
+				F46875CD5AB6887822E578E729EDDB01 /* Frameworks */,
 			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		D214FEF6F3484BBDF281A28B38DD460B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CF910E1A328F8CD7464D3B928A311478 /* TopStepComKitSJ.framework */,
-			);
-			name = Frameworks;
+			name = fitcloud;
 			sourceTree = "<group>";
 		};
 		E38A58437C7267C20D2B0EAE9E15867E /* Products */ = {
@@ -279,20 +269,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4E90873775B9D5F2501D216F78E135C /* fw */ = {
+		E92BCB3BD7369ADC19C9E5FC4F06A833 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				429D6706AA53C5E3295621B3D37CCAE0 /* Frameworks */,
+				D67F539395A0DA92B6C46C33A42857F2 /* TopStepComKit.framework */,
 			);
-			name = fw;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7D0AEC4EADAE7FAE7BA8D5C4F9B47D8 /* sj */ = {
+		F46875CD5AB6887822E578E729EDDB01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D214FEF6F3484BBDF281A28B38DD460B /* Frameworks */,
+				BD6DE6E398B2CCA0990496B8F30BD255 /* FitCloudDFUKit.xcframework */,
+				6F324A7131D038972F69DFF58A23F9C7 /* FitCloudKit.xcframework */,
+				06749D99F84749213CBA9D413EC82A2C /* FitCloudNWFKit.xcframework */,
+				1C7D4784C3BA393CEFCFAAFE191E09EE /* FitCloudWFKit.xcframework */,
+				F3B83F59EE4CC0BC68D3BDA185EEF404 /* TopStepComKitFitCloud.framework */,
 			);
-			name = sj;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD24C9948C41432FEFC3F459FE6277BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				788E47FCF95E64DE5A3C8F11AF93AFC0 /* TopStepSDK.modulemap */,
+				67CF7EBE1CE72DD430E1B03F610423F2 /* TopStepSDK-dummy.m */,
+				C4663C16F24314F83C954707B4F5B7A7 /* TopStepSDK-Info.plist */,
+				E2D26964D389A9B256F9FAC1B8A9D1FB /* TopStepSDK-prefix.pch */,
+				CFB74BB911028039F0E18380ED8F2D66 /* TopStepSDK-umbrella.h */,
+				4D260AC2708ED78095C033C0F0CAC11E /* TopStepSDK-xcframeworks.sh */,
+				D61A9AB068A5A07B095A133355BC7A67 /* TopStepSDK.debug.xcconfig */,
+				45EEAE33EE5EECF18982B3A0C128282F /* TopStepSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TopStepSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,12 +316,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		020CB893D99D68BD8A8BA6C12FCBA5E9 /* Headers */ = {
+		EA512A4D89E3AAE346447F63BBF5D35D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB1E6C312D61090B38C426917AE85AB /* TopStepCoreClass.h in Headers */,
-				1AC1F46279490F9B42F3E229E5000C0B /* TopStepSDK-umbrella.h in Headers */,
+				71C0F5E9D8B366839FCCF42F03F26B3C /* TopStepCoreClass.h in Headers */,
+				2D790F7D513D447FEFA60D0F46D45B4B /* TopStepSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +340,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3D155D6A0E6F84E83F8D7E8696A33127 /* PBXTargetDependency */,
+				0125470AA76E9485AA82635EC33BD126 /* PBXTargetDependency */,
 			);
 			name = "Pods-TopStepSDK_Example";
 			productName = Pods_TopStepSDK_Example;
@@ -339,12 +349,13 @@
 		};
 		EAF46D2CB7207E54A6AE55A651982B5B /* TopStepSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B10E98F92C38B925E8A86CFCC548414 /* Build configuration list for PBXNativeTarget "TopStepSDK" */;
+			buildConfigurationList = 55BA46B9929273BC0D403C7163332364 /* Build configuration list for PBXNativeTarget "TopStepSDK" */;
 			buildPhases = (
-				020CB893D99D68BD8A8BA6C12FCBA5E9 /* Headers */,
-				F778FFD07964B83F1C2D0CEB9682AACF /* Sources */,
-				456CF49F5188CDFB419281A430ECCD6C /* Frameworks */,
-				8FA0BB539EDE92C3AF0972020B973CCF /* Resources */,
+				EA512A4D89E3AAE346447F63BBF5D35D /* Headers */,
+				B31105CE3BEF6D343560A6E0D3490CA3 /* [CP] Copy XCFrameworks */,
+				A957891D3A591F7850C6E3BB6148BE53 /* Sources */,
+				5EF465FCE3DC4789AD52F244CFBDA8C8 /* Frameworks */,
+				87380BF29FAD832F62AF5EDC0BAE81FA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -384,7 +395,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8FA0BB539EDE92C3AF0972020B973CCF /* Resources */ = {
+		87380BF29FAD832F62AF5EDC0BAE81FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,6 +411,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B31105CE3BEF6D343560A6E0D3490CA3 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/TopStepSDK/TopStepSDK-xcframeworks.sh",
+				"${PODS_ROOT}/../../TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudDFUKit/FitCloudDFUKit/FitCloudDFUKit.xcframework",
+				"${PODS_ROOT}/../../TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudKit/FitCloudKit/FitCloudKit.xcframework",
+				"${PODS_ROOT}/../../TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudNWFKit/FitCloudNWFKit/FitCloudNWFKit.xcframework",
+				"${PODS_ROOT}/../../TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudWFKit/FitCloudWFKit/FitCloudWFKit.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TopStepSDK/fitcloud/FitCloudDFUKit.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TopStepSDK/fitcloud/FitCloudKit.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TopStepSDK/fitcloud/FitCloudNWFKit.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TopStepSDK/fitcloud/FitCloudWFKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TopStepSDK/TopStepSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42C52D2295F3C33587F8329BE54298FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -409,23 +447,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F778FFD07964B83F1C2D0CEB9682AACF /* Sources */ = {
+		A957891D3A591F7850C6E3BB6148BE53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D0105E34F36DDB7FA7ACDF2D260E87 /* TopStepCoreClass.m in Sources */,
-				1EE778EFC58074661A462CC234AFBC4C /* TopStepSDK-dummy.m in Sources */,
+				3150C9B2D02F9D7A3D9B186B1F56E3ED /* TopStepCoreClass.m in Sources */,
+				5688BEF36134AC8852F818E3DD2A93F3 /* TopStepSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D155D6A0E6F84E83F8D7E8696A33127 /* PBXTargetDependency */ = {
+		0125470AA76E9485AA82635EC33BD126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TopStepSDK;
 			target = EAF46D2CB7207E54A6AE55A651982B5B /* TopStepSDK */;
-			targetProxy = C8DC5555D45FAB342752194767625B87 /* PBXContainerItemProxy */;
+			targetProxy = 55960850F0E7B9102AA28A977755E941 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -532,6 +570,40 @@
 			};
 			name = Debug;
 		};
+		4781059D07B70A89F54951B7B125521C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61A9AB068A5A07B095A133355BC7A67 /* TopStepSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/TopStepSDK/TopStepSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TopStepSDK/TopStepSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TopStepSDK/TopStepSDK.modulemap";
+				PRODUCT_MODULE_NAME = TopStepSDK;
+				PRODUCT_NAME = TopStepSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,6 +666,41 @@
 			};
 			name = Release;
 		};
+		69D32CA5013E3FA960BF36DF031E2FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EEAE33EE5EECF18982B3A0C128282F /* TopStepSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/TopStepSDK/TopStepSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TopStepSDK/TopStepSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TopStepSDK/TopStepSDK.modulemap";
+				PRODUCT_MODULE_NAME = TopStepSDK;
+				PRODUCT_NAME = TopStepSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		70C4AD80B72F05042F42CF9CFC6635DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA2C8390EB2CB241B016FF26F6B5482D /* Pods-TopStepSDK_Example.release.xcconfig */;
@@ -631,75 +738,6 @@
 			};
 			name = Release;
 		};
-		7279F1E35209B88BEED659310CFBD12B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28FB788A3D2DE14F57ECDE11073F771 /* TopStepSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				GCC_PREFIX_HEADER = "Target Support Files/TopStepSDK/TopStepSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TopStepSDK/TopStepSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TopStepSDK/TopStepSDK.modulemap";
-				PRODUCT_MODULE_NAME = TopStepSDK;
-				PRODUCT_NAME = TopStepSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B87CDBDBF06E9A0AEF31B253ABD3560B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9CD204D3094CA6B9280C614E1ADCFB /* TopStepSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				GCC_PREFIX_HEADER = "Target Support Files/TopStepSDK/TopStepSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TopStepSDK/TopStepSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TopStepSDK/TopStepSDK.modulemap";
-				PRODUCT_MODULE_NAME = TopStepSDK;
-				PRODUCT_NAME = TopStepSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -712,20 +750,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		55BA46B9929273BC0D403C7163332364 /* Build configuration list for PBXNativeTarget "TopStepSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4781059D07B70A89F54951B7B125521C /* Debug */,
+				69D32CA5013E3FA960BF36DF031E2FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6759BED0732FB5880BFF517F62D2538E /* Build configuration list for PBXNativeTarget "Pods-TopStepSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12E41A3759516FE85E984B2F76FA536F /* Debug */,
 				70C4AD80B72F05042F42CF9CFC6635DC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B10E98F92C38B925E8A86CFCC548414 /* Build configuration list for PBXNativeTarget "TopStepSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B87CDBDBF06E9A0AEF31B253ABD3560B /* Debug */,
-				7279F1E35209B88BEED659310CFBD12B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

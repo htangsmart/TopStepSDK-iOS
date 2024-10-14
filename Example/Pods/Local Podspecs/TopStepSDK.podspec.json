@@ -89,7 +89,13 @@
     },
     {
       "name": "fitcloud",
-      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework",
+      "vendored_frameworks": [
+        "TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework",
+        "TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudDFUKit/FitCloudDFUKit/FitCloudDFUKit.xcframework",
+        "TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudKit/FitCloudKit/FitCloudKit.xcframework",
+        "TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudNWFKit/FitCloudNWFKit/FitCloudNWFKit.xcframework",
+        "TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudWFKit/FitCloudWFKit/FitCloudWFKit.xcframework"
+      ],
       "dependencies": {
         "TopStepSDK/core": [
 

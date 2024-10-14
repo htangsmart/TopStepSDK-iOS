@@ -6,8 +6,8 @@
 //
 
 #import "TopStepCoreClass.h"
-//p#import <TopStepComKitFw/TopStepComKitFw.h>
-
+#import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
+#import <TopStepComKitFitCloud/FitCloudSdk.h>
 @implementation TopStepCoreClass
 
 - (void)testFunc {
@@ -18,6 +18,7 @@
 
 #endif
     
+    [[FitCloudSdk share] initSdk];
 }
 
 @end

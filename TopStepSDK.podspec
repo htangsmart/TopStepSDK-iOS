@@ -75,7 +75,7 @@ TODO: Add long description of the pod here.
     sp.dependency 'TopStepSDK/flywear'
   end
   s.subspec 'fitcloud' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework', 'TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudDFUKit/FitCloudDFUKit/FitCloudDFUKit.xcframework', 'TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudKit/FitCloudKit/FitCloudKit.xcframework', 'TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudNWFKit/FitCloudNWFKit/FitCloudNWFKit.xcframework', 'TopStepSDK/Frameworks/TopStepComKitFitCloud/FitCloudWFKit/FitCloudWFKit/FitCloudWFKit.xcframework'
     sp.dependency 'TopStepSDK/core'
 #    sp.xcconfig = {
 #        'GCC_PREPROCESSOR_DEFINITIONS' => 'TopStepSDK_Platform_fitcloud=1',
