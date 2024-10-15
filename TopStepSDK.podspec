@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
 #  s.source_files = 'TopStepSDK/Classes/**/*'
   
-  #s.static_framework = true
+  s.static_framework = true
 
   s.frameworks  = 'Foundation', 'UIKit', 'CoreBluetooth'
   #设置 podspec 的默认 subspec
@@ -66,14 +66,26 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'sj' do |sp|
-    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework'
+    sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework',
+    'TopStepSDK/Frameworks/TopStepComKitSJ/h264encoder.framework',
+    'TopStepSDK/Frameworks/TopStepComKitSJ/SJWatchLib.framework',
+    'TopStepSDK/Frameworks/TopStepComKitSJ/UNIWatchMate.framework'
     sp.dependency 'TopStepSDK/core'
+    sp.dependency 'ReactiveObjC'
+    sp.dependency 'RxSwift'
+    sp.dependency 'RxCocoa'
+    sp.dependency 'PromiseKit'
+    sp.dependency 'HandyJSON'
+    sp.dependency 'SwiftyJSON'
+    sp.dependency 'SWCompression/TAR'
+    sp.dependency 'BitByteData'
   end
   
   s.subspec 'fw' do |sp|
     sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFw/TopStepComKitFw.framework'
     sp.dependency 'TopStepSDK/flywear'
   end
+  
   s.subspec 'fitcloud' do |sp|
     sp.vendored_frameworks = 'TopStepSDK/Frameworks/TopStepComKitFitCloud/TopStepComKitFitCloud.framework'
     sp.dependency 'TopStepSDK/core'

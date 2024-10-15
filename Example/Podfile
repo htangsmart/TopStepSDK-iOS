@@ -1,10 +1,10 @@
-use_frameworks! :linkage => :static
+use_frameworks!
 
 platform :ios, '12.0'
 
 target 'TopStepSDK_Example' do
   
-  pod 'TopStepSDK', :path => '../', :subspecs => ['core', 'fitcloud', 'proxy']
+  pod 'TopStepSDK', :path => '../', :subspecs => ['core', 'fitcloud', 'proxy', 'sj']
   
 end
 

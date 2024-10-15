@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "12.0"
   },
+  "static_framework": true,
   "frameworks": [
     "Foundation",
     "UIKit",
@@ -71,9 +72,38 @@
     },
     {
       "name": "sj",
-      "vendored_frameworks": "TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework",
+      "vendored_frameworks": [
+        "TopStepSDK/Frameworks/TopStepComKitSJ/TopStepComKitSJ.framework",
+        "TopStepSDK/Frameworks/TopStepComKitSJ/h264encoder.framework",
+        "TopStepSDK/Frameworks/TopStepComKitSJ/SJWatchLib.framework",
+        "TopStepSDK/Frameworks/TopStepComKitSJ/UNIWatchMate.framework"
+      ],
       "dependencies": {
         "TopStepSDK/core": [
+
+        ],
+        "ReactiveObjC": [
+
+        ],
+        "RxSwift": [
+
+        ],
+        "RxCocoa": [
+
+        ],
+        "PromiseKit": [
+
+        ],
+        "HandyJSON": [
+
+        ],
+        "SwiftyJSON": [
+
+        ],
+        "SWCompression/TAR": [
+
+        ],
+        "BitByteData": [
 
         ]
       }
