@@ -84,10 +84,10 @@
     [TPSSdk.share unbindDevWithUserId:@"" result:^(NSError *error) {
        
         NSLog(@"解绑操作完成 error = %@", error);
-        _connectStateBtn.enabled = error != nil;
+        _connectStateBtn.enabled = error == nil;
         NSString *title = [NSString stringWithFormat:@"已连接设备%@ 解绑失败", TPSSdk.share.currentDevice.name];
         [_connectStateBtn setTitle:error ? @"解绑成功 点击扫描设备" : title forState:(UIControlStateNormal)];
-        _funcationListBtn.enabled = error == nil;
+        _funcationListBtn.enabled = error != nil;
     }];
 }
 

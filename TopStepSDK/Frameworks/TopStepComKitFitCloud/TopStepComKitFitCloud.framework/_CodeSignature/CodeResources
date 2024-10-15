@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		u5LWDbhJWyObn+B6BlNsxrUmkrM=
+		</data>
 		<key>FitCloudDFUKit.bundle/Info.plist</key>
 		<data>
 		piroIiWbmwD1p8BeuFaa+ErBgW8=
@@ -1145,9 +1149,13 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/FitCloudSdk.h</key>
+		<data>
+		8lb9ruFcNyNOrG5+QnNTA7+UE4k=
+		</data>
 		<key>Headers/TopStepComKitFitCloud.h</key>
 		<data>
-		6xJILTtXTnpOS9A8wEGjE4vw0A0=
+		6HvB1wnm1smnhLrflDd47T2pR+A=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1163,7 +1171,7 @@
 		</data>
 		<key>TopStepComKitFitCloud.podspec</key>
 		<data>
-		rGDlvT6U6NCdOuyc1PxfR+JEGa0=
+		D5O7oVowpxsH15U/EHGsszHP6RY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2837,15 +2845,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/FitCloudSdk.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8lb9ruFcNyNOrG5+QnNTA7+UE4k=
+			</data>
+			<key>hash2</key>
+			<data>
+			WhJpCTPLi7ECTfF4A5wOm5nxVmsdqUn6SAq7t/gNKYc=
+			</data>
+		</dict>
 		<key>Headers/TopStepComKitFitCloud.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6xJILTtXTnpOS9A8wEGjE4vw0A0=
+			6HvB1wnm1smnhLrflDd47T2pR+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			8eXZ9ofJuCyzLnzBRP0HW2Twt5vZhusLemg7iY7ER6I=
+			6eBir1nf6Fz06U/4n4W7L3iWizB1SEoxBTvWPUkyaGE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2874,11 +2893,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rGDlvT6U6NCdOuyc1PxfR+JEGa0=
+			D5O7oVowpxsH15U/EHGsszHP6RY=
 			</data>
 			<key>hash2</key>
 			<data>
-			rdE0nmU9u035IcSgxn0STSyzcarZ7A2vTt5H/v/REJE=
+			ePVv2j4K2j55wM6B57qdfrr1akNjpHN5cdvBgac7tgA=
 			</data>
 		</dict>
 	</dict>

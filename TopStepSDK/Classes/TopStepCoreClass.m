@@ -6,7 +6,8 @@
 //
 
 #import "TopStepCoreClass.h"
-#import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
+#import <FitCloudKit/FitCloudKit.h>
+//#import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
 #import <TopStepComKitFitCloud/FitCloudSdk.h>
 @implementation TopStepCoreClass
 
@@ -18,7 +19,7 @@
 
 #endif
     
-    [[FitCloudSdk share] initSdk];
+//    [[FitCloudSdk share] initSdk];
 }
 
 @end

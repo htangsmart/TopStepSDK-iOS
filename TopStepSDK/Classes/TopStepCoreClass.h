@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #if TopStepSDK_Platform_fitcloud
    
-#import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
+//#import <TopStepComKitFitCloud/TopStepComKitFitCloud.h>
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
